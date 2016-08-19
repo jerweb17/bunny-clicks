@@ -1,0 +1,61 @@
+
+body {  background-color: #303131;
+	font-family: 'Ubuntu', serif;}/*border: 5px solid blue;*/
+h1,  h3, h4       { color: #FFFFFF; font-family: 'Ubuntu', serif;}
+h1, h2          { font-family: 'Georgia'; margin: 0; }
+h1         { border-bottom: 0px solid #EEE; font-size: 3.3em;}
+h2 { font-size: 1.75em; color: #EEEEEE}
+h3 {color: #EEEEEE;}
+h3 {font-size 2em;}
+
+dt {color:#EEE;}
+p, dd              { color: #EEEEEE;}
+a {text-decoration: none; color:#16161F; font-size: 1.0em;}
+ul{list-style-type: none; margin:0; padding:0; overflow: hidden;background-color: #303131}
+li{float:left;}
+li a {display: block;color: white;text-align: center;padding:14px 16px;text-decoration: none;}
+li a:hover{	background-color: #111}
+
+
+.bunnypic{max-width: 50%; max-height: 50%}
+.bunnyframe{height: 300;width: 400;}
+.result{color:#EEEEEE;}
+.ainput{font-size: 1.2em; font-family: 'Ubuntu', serif;color:#EEE;}
+
+.header{left:50%; text-align: center;font-size: 1.3em;align-self: center;}
+.menu{margin:auto auto;width: 85%;min-height: 50px;float: left}
+.menu .box{float: left;width: 85px;margin: 8px;color:#EEEEEE;}
+.menu .box .bunnylink{padding:6px;background-color: #222222;color: white;font-size: 1.1em;}
+
+.banner{margin: auto auto; width:100%;background-color: #667176;text-align: center;background-color: #667176; color:#EEEEEE; margin: 0 auto;font-family: 'Ubuntu', serif;}
+
+.centerpane{margin: auto auto; width:80%; border:background-color: #667176;position: relative;
+	min-height: 180px;text-align: center;}   /*border-style: solid;border-color: white;*/
+
+
+/*right side of center pane*/
+.bunnylistsection{width: 20%;margin: 5px auto;float: right;color: #AAAAAA} 
+.bunnylist{ margin: 5px auto; color: #AAAAAA}
+/*left side of center pane*/
+/*middle section of center pane*/
+.bunnypanel{width: 80%;margin: 5px auto;display:inline-block;border-right-width: 0px;border-right-style: solid;} 
+
+/*record in panel group*/
+.adminform{}
+.adminpanel{width: 80%;margin: 5px auto;display:inline-block;border-right-width: 0px;border-right-style: solid; color:#000000; float:left;}
+.activeadminpanel{color: #BBBBBB; }
+.detailsform{background-color: #DDDDDD;}
+
+
+
+.name {width:120%;display: inline-block; float: left;font-size: x-large;}
+.description {width: 100%;font-size: large;font-weight: 300;}
+.price {text-align: right; width:50%; float: right; }
+.editdeletepane{}
+.row {color: #14464D}
+
+
+.panel-heading{background-color:#CACCCB;margin: 0 auto;}
+.panel-body{background-color:#989997;margin: 0 auto;}
+.flash          { background: #cee5F5; }
+.colcontainer{margin:0;max-width: 1400px;min-width: 350px;padding-right: 20px;min-height: 400px;}

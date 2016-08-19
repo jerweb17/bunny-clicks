@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <title>Bunny Clicks</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<hr>
+
+<div class="header">
+    <h1>Bunny Clicks!</h1>
+    <hr>            
+    <h3>Click a Bunny to View, Then click the picture to add to the love!</h3>
+    <hr>
+</div>
+<div class = 'centerpane'>
+    <div class='menu' id='menu'>
+    </div>
+    
+    
+    <div id="bunnypanel" class="bunnypanel"> 
+        <h3 id="main-header"></h3>
+    </div>
+    <hr>
+    <div id="adminpanel" class="adminpanel" >
+            <button type="submit" id="showadminbutton">Admin Options</button>
+            <br>
+            <form id="detailsform" class="detailsform">
+                Name:<br>
+                <input type="text" id="inputName" name="inputName" required><br>
+                URL:<br>
+                <input  id="inputURL" name="inputURL" required><br>
+                Click Count:<br>
+                <input type="number" id="inputClicks" name="inputClicks"><br>
+                <button type="reset" id="cancelbutton">Cancel</button> 
+                <button type="submit" id="savebutton">Save</button>
+            </form>
+    </div>
+    
+
+</div>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
